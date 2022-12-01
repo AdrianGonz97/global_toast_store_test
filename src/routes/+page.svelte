@@ -1,5 +1,10 @@
 <script lang="ts">
 	import { toastStore } from '@skeletonlabs/skeleton';
+
+	toastStore.trigger({
+		message: 'Hello World!',
+		autohide: false
+	});
 </script>
 
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
